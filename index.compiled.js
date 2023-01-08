@@ -1826,7 +1826,7 @@
 
         var _util = require("./util");
 
-        var context = _interopRequireWildcard(require("../index"));
+        var context = _interopRequireWildcard(require("./index"));
 
         var _plugin = _interopRequireDefault(require("./plugin"));
 
@@ -38922,7 +38922,7 @@
         exports.requeue = requeue;
         exports._getQueueContexts = _getQueueContexts;
 
-        var _index = require("../index");
+        var _index = require("./index");
 
         var _index2 = require("./index");
 
@@ -40760,7 +40760,7 @@
 
         var _debug = require("debug");
 
-        var _index = require("../index");
+        var _index = require("./index");
 
         var _scope = require("../scope");
 
@@ -43048,7 +43048,7 @@
 
         var _codeFrame = require("@babel/code-frame");
 
-        var _index = require("../index");
+        var _index = require("./index");
 
         var _index2 = require("./index");
 
@@ -43424,7 +43424,7 @@
 
         var _renamer = require("./lib/renamer");
 
-        var _index = require("../index");
+        var _index = require("./index");
 
         var _binding = require("./binding");
 
