@@ -1,1 +1,10 @@
+1.install jest:
 npm install jest@^27 --save-dev
+2.install React testing library:
+npm install @testing-library/react --save-dev
+3.install jest dom library"
+npm install --save-dev @testing-library/jest-dom
+=> import trong file test:   import '@testing-library/jest-dom';
+4.install testing library user event:
+npm install --save-dev @testing-library/user-event@12.0.4
+=>import userEvent from '@testing-library/user-event';
